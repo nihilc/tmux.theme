@@ -1,0 +1,21 @@
+# OneDark (base 16)
+
+# Interfaz
+bg0="#282c34"
+bg1="#353b45"
+bg2="#3e4451"
+bg3="#545862"
+
+fg3="#565c64"
+fg2="#abb2bf"
+fg1="#b6bdca"
+fg0="#c8ccd4"
+
+# Colors
+red="#e06c75"     #
+orange="#d19a66"  #
+yellow="#e5c07b"  #
+green="#98c379"   #
+cyan="#56b6c2"    #
+blue="#61afef"    #
+magenta="#c678dd" #

@@ -1,0 +1,21 @@
+# Nord
+
+# Interfaz
+bg0="#2e3440" # nord_0
+bg1="#3b4252" # nord_1
+bg2="#434c5e" # nord_2
+bg3="#4c566a" # nord_3
+
+fg3="#d8dee9" # nord_4
+fg2="#e5e9f0" # nord_5
+fg1="#eceff4" # nord_6
+fg0="#8FBCBB" # nord_7
+
+# Colors
+red="#bf616a"     # nord_11
+orange="#D08770"  # nord_12
+yellow="#ebcb8b"  # nord_13
+green="#a3be8c"   # nord_14
+blue="#81a1c1"    #  nord_9
+cyan="#88c0d0"    #  nord_8
+magenta="#b48ead" # nord_15
