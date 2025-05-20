@@ -26,7 +26,7 @@ main() {
   # Get Options
   local -A OPT=(
     ["flavour"]="$(get_tmux_opt "@thm_flavour" "onedark")"
-    ["style"]="$(get_tmux_opt "@thm_style" 2)"
+    ["style"]="$(get_tmux_opt "@thm_style" 1)"
     ["icons"]="$(get_tmux_opt "@thm_icons" true)"
   )
   # Get Theme
