@@ -79,8 +79,9 @@ main() {
     status_right="$(style cyan bg0 "italics") ${ICO[date]}%Y/%m/%d $div"
     status_right+="$(style blue bg0 "italics") ${ICO[time]}%H:%M "
     # status-window
-    status_window="$(style fg2 bg0) #I #[italics]#W "
-    status_window_current="$(style magenta bg0) #I #[italics]#W "
+    # if window name is "Clean" don't show it
+    status_window="$(style fg2 bg0) #I#[italics]#{?#{!=:#{window_name},Clean}, #W,} "
+    status_window_current="$(style magenta bg0) #I#[italics]#{?#{!=:#{window_name},Clean}, #W,} "
     status_window_divider="$div"
   fi
 
